@@ -47,7 +47,7 @@ st.dataframe(df.head(4))
 
 #SIDEBAR
 
-st.sidebar.subheader('Variable du prospect')
+
 
 age = st.sidebar.slider('Age', 18, 95, value=20, step=1)
 duration = st.sidebar.slider('Duration', 0, 5000, value=2000, step=1)
